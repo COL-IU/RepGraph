@@ -1,3 +1,11 @@
+This software is used to construct A-Bruijn graph given pair-wise alignment of a reference genome. 
+
+This was developed for a journal article published in 2004: 
+
+Pevzner, Paul A., Haixu Tang, and Glenn Tesler. "De novo repeat classification and fragment assembly." Genome research 14.9 (2004): 1786-1796.
+
+The original software was modified slightly to be used in conjunction with GRASPER ( https://github.com/COL-IU/GRASPER )
+
 ************************************
 RepGraph is a package to produce 
 a repeat graph from a genomic sequence.
