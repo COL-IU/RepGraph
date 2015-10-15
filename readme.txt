@@ -11,6 +11,11 @@ RepGraph is a package to produce
 a repeat graph from a genomic sequence.
 ************************************
 
+**Compile/Installation
+> make
+
+
+
 The user should have at least one of the
 following programs to generate alignments
 between the genomic sequence and itself:

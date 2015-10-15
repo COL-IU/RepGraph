@@ -393,109 +393,109 @@ OBJS62 = pair_bp.o check.o input_intevals.o input_reg.o outputmatrix.o\
 	$(CC) $(CFLAGS) -c $<
 
 repeat_sin_read: $(OBJS22)
-	$(CC) $(CCOPT) -o bin/repeat_sin_read $(OBJS22) $(LIBS)
+	$(CC) $(CCOPT) -o repeat_sin_read $(OBJS22) $(LIBS)
 
 repeat_sin: $(OBJS21)
-	$(CC) $(CCOPT) -o bin/repeat_sin $(OBJS21) $(LIBS)
+	$(CC) $(CCOPT) -o repeat_sin $(OBJS21) $(LIBS)
 
 repeat_sin_len: $(OBJS25)
-	$(CC) $(CCOPT) -o bin/repeat_sin_len $(OBJS25) $(LIBS)
+	$(CC) $(CCOPT) -o repeat_sin_len $(OBJS25) $(LIBS)
 
 makefig: $(OBJS11)
-	$(CC) $(CCOPT) -o bin/makefig $(OBJS11) $(LIBS)
+	$(CC) $(CCOPT) -o makefig $(OBJS11) $(LIBS)
 
 simplifygraph_new: $(OBJS24)
-	$(CC) $(CCOPT) -o bin/simplifygraph_new $(OBJS24) $(LIBS)
+	$(CC) $(CCOPT) -o simplifygraph_new $(OBJS24) $(LIBS)
 
 simplifygraph_new_len: $(OBJS26)
-	$(CC) $(CCOPT) -o bin/simplifygraph_new_len $(OBJS26) $(LIBS)
+	$(CC) $(CCOPT) -o simplifygraph_new_len $(OBJS26) $(LIBS)
 
 simplifygraph: $(OBJS23)
-	$(CC) $(CCOPT) -o bin/simplifygraph $(OBJS23) $(LIBS)
+	$(CC) $(CCOPT) -o simplifygraph $(OBJS23) $(LIBS)
 
 bl2aln: $(OBJS20)
-	$(CC) $(CCOPT) -o bin/bl2aln $(OBJS20) $(LIBS)
+	$(CC) $(CCOPT) -o bl2aln $(OBJS20) $(LIBS)
 
 case2aln: $(OBJS31)
-	$(CC) $(CCOPT) -o bin/case2aln $(OBJS31) $(LIBS)
+	$(CC) $(CCOPT) -o case2aln $(OBJS31) $(LIBS)
 
 longencode: $(OBJS10)
-	$(CC) $(CCOPT) -o bin/longencode $(OBJS10) $(LIBS)
+	$(CC) $(CCOPT) -o longencode $(OBJS10) $(LIBS)
 
 insencode: $(OBJS12)
-	$(CC) $(CCOPT) -o bin/insencode $(OBJS12) $(LIBS)
+	$(CC) $(CCOPT) -o insencode $(OBJS12) $(LIBS)
 
 maketxt: $(OBJS13)
-	$(CC) $(CCOPT) -o bin/maketxt $(OBJS13) $(LIBS)
+	$(CC) $(CCOPT) -o maketxt $(OBJS13) $(LIBS)
 
 reputer2aln: $(OBJS30)
-	$(CC) $(CCOPT) -o bin/reputer2aln $(OBJS30) $(LIBS)
+	$(CC) $(CCOPT) -o reputer2aln $(OBJS30) $(LIBS)
 
 ph2aln: $(OBJS40)
-	$(CC) $(CCOPT) -o bin/ph2aln $(OBJS40) $(LIBS)
+	$(CC) $(CCOPT) -o ph2aln $(OBJS40) $(LIBS)
 
 string2aln: $(OBJS41)
-	$(CC) $(CCOPT) -o bin/string2aln $(OBJS41) $(LIBS)
+	$(CC) $(CCOPT) -o string2aln $(OBJS41) $(LIBS)
 
 string2seq: $(OBJS42)
-	$(CC) $(CCOPT) -o bin/string2seq $(OBJS42) $(LIBS)
+	$(CC) $(CCOPT) -o string2seq $(OBJS42) $(LIBS)
 
 classifyaln: $(OBJS43)
-	$(CC) $(CCOPT) -o bin/classifyaln $(OBJS43) $(LIBS)
+	$(CC) $(CCOPT) -o classifyaln $(OBJS43) $(LIBS)
 
 rem_dup: $(OBJS44)
-	$(CC) $(CCOPT) -o bin/rem_dup $(OBJS44) $(LIBS)
+	$(CC) $(CCOPT) -o rem_dup $(OBJS44) $(LIBS)
 
 rem_hetero: $(OBJS46)
-	$(CC) $(CCOPT) -o bin/rem_hetero $(OBJS46) $(LIBS)
+	$(CC) $(CCOPT) -o rem_hetero $(OBJS46) $(LIBS)
 
 grabaln: $(OBJS47)
-	$(CC) $(CCOPT) -o bin/grabaln $(OBJS47) $(LIBS)
+	$(CC) $(CCOPT) -o grabaln $(OBJS47) $(LIBS)
 
 prepare_aln: $(OBJS48)
-	$(CC) $(CCOPT) -o bin/prepare_aln $(OBJS48) $(LIBS)
+	$(CC) $(CCOPT) -o prepare_aln $(OBJS48) $(LIBS)
 
 put_single: $(OBJS49)
-	$(CC) $(CCOPT) -o bin/put_single $(OBJS49) $(LIBS)
+	$(CC) $(CCOPT) -o put_single $(OBJS49) $(LIBS)
 
 perform_aln: $(OBJS50)
-	$(CC) $(CCOPT) -o bin/perform_aln $(OBJS50) $(LIBS)
+	$(CC) $(CCOPT) -o perform_aln $(OBJS50) $(LIBS)
 
 count_rep: $(OBJS51)
-	$(CC) $(CCOPT) -o bin/count_rep $(OBJS51) $(LIBS)
+	$(CC) $(CCOPT) -o count_rep $(OBJS51) $(LIBS)
 
 countall: $(OBJS52)
-	$(CC) $(CCOPT) -o bin/countall $(OBJS52) $(LIBS)
+	$(CC) $(CCOPT) -o countall $(OBJS52) $(LIBS)
 
 cutseq: $(OBJS53)
-	$(CC) $(CCOPT) -o bin/cutseq $(OBJS53) $(LIBS)
+	$(CC) $(CCOPT) -o cutseq $(OBJS53) $(LIBS)
 
 makechrfig: $(OBJS54)
-	$(CC) $(CCOPT) -o bin/makechrfig $(OBJS54) $(LIBS)
+	$(CC) $(CCOPT) -o makechrfig $(OBJS54) $(LIBS)
 
 makechrrepg: $(OBJS55)
-	$(CC) $(CCOPT) -o bin/makechrrepg $(OBJS55) $(LIBS)
+	$(CC) $(CCOPT) -o makechrrepg $(OBJS55) $(LIBS)
 
 classifyaln_seg: $(OBJS56)
-	$(CC) $(CCOPT) -o bin/classifyaln_seg $(OBJS56) $(LIBS)
+	$(CC) $(CCOPT) -o classifyaln_seg $(OBJS56) $(LIBS)
 
 segment_cons: $(OBJS57)
-	$(CC) $(CCOPT) -o bin/segment_cons $(OBJS57) $(LIBS)
+	$(CC) $(CCOPT) -o segment_cons $(OBJS57) $(LIBS)
 
 def_ancdup: $(OBJS58)
-	$(CC) $(CCOPT) -o bin/def_ancdup $(OBJS58) $(LIBS)
+	$(CC) $(CCOPT) -o def_ancdup $(OBJS58) $(LIBS)
 
 loc_core: $(OBJS59)
-	$(CC) $(CCOPT) -o bin/loc_core $(OBJS59) $(LIBS)
+	$(CC) $(CCOPT) -o loc_core $(OBJS59) $(LIBS)
 
 simplifygraph_new_new: $(OBJS60)
-	$(CC) $(CCOPT) -o bin/simplifygraph_new_new $(OBJS60) $(LIBS)
+	$(CC) $(CCOPT) -o simplifygraph_new_new $(OBJS60) $(LIBS)
 
 simplifygraph_new_len_new: $(OBJS61)
-	$(CC) $(CCOPT) -o bin/simplifygraph_new_len_new $(OBJS61) $(LIBS)
+	$(CC) $(CCOPT) -o simplifygraph_new_len_new $(OBJS61) $(LIBS)
 
 pair_bp: $(OBJS62)
-	$(CC) $(CCOPT) -o bin/pair_bp $(OBJS62) $(LIBS)
+	$(CC) $(CCOPT) -o pair_bp $(OBJS62) $(LIBS)
 
 new :
 	touch *.c
@@ -505,17 +505,20 @@ install: all
 #	$(top_srcdir)/mkinstalldirs $(bindir)
 #	$(top_srcdir)/mkinstalldirs $(libdir)
 	for prog in ${PROGRAMS}; do \
-		${INSTALL} ${prog} $(bindir) \
-	done && test -z "$$fail"
+		mv $$prog $(bindir)/. ; \
+	done
 
 uninstall:
 	for prog in ${PROGRAMS}; do \
-		-/bin/rm -f $(bindir)/${prog} \
+		rm -f $(bindir)/${prog} ${prog}\
 	done && test -z "$$fail"
 
 # removes whatever can be built with make except xypost
 clean:
-	/bin/rm -rf *.o bin/
+	/bin/rm -rf *.o bin/ 
+	for prog in ${PROGRAMS} ; do \
+		rm -f $$prog ; \
+	done
 
 distclean: clean
-	/bin/rm -f Makefile config.h config.status config.cache config.log
+	rm -f Makefile config.h config.status config.cache config.log
