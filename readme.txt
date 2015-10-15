@@ -12,7 +12,7 @@ a repeat graph from a genomic sequence.
 ************************************
 
 **Compile/Installation
-> make
+> make install
 
 
 
