@@ -30,7 +30,7 @@ double	min_id;
 
 void initenv(int argc, char **argv);
 
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int	i, j, k, l, m, n;
 	char	**src_seq, **src_name;
@@ -74,6 +74,8 @@ main(int argc, char **argv)
 	printf("Done...\n");
 
 	free((void **) align);
+	
+	return 0;
 }
 
 void initenv(int argc, char **argv)

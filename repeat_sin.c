@@ -30,7 +30,7 @@ char	inpfile[100], outfile[100], seqfile[100];
 
 void initenv(int argc, char **argv);
 
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int	i, j, k, l, m, n;
 	int	dist[20];
@@ -66,10 +66,15 @@ main(int argc, char **argv)
 	fp = ckopen(seqfile, "r");
 	num_seq = readseq1by1(src_seq, src_name, len_seq, fp);
 	fclose(fp);
+
+	sprintf(temp, "%s.len", seqfile);
+	fp = ckopen(temp, "w");
 	printf("Genome length: ");
 	for(i = 0; i < num_seq; i ++)	{
 		printf("%d ", len_seq[i]);
+		fprintf(fp, "%d\n", len_seq[i]);
 	}
+	fclose(fp);
 	printf("\n");
 
 /*	Make reverse complements of input sequences rev(i) --> i + num_seq	*/
@@ -322,6 +327,8 @@ main(int argc, char **argv)
 	free((void **) src_seq);
 	free((void **) src_name);
 	free((void *) len_seq);
+
+	return 0;
 }
 
 void initenv(int argc, char **argv)
